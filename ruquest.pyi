@@ -1,7 +1,7 @@
 from typing import TypedDict
 
 class Response(TypedDict):
-    status: str
+    status_code: str
     content: str
 
 
